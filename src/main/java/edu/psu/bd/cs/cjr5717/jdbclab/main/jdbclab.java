@@ -42,7 +42,7 @@ public class jdbclab {
         C.close();
 
         }else {
-            System.out.println("The value \"" + query2 + "\" could not be found in the table");
+            System.out.println("The title \"" + query2 + "\" could not be found in the table");
         }
 
         }catch (SQLException e) {
